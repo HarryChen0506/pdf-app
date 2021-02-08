@@ -3,6 +3,7 @@ import BasicLayout from '@/layouts/BasicLayout'
 import Dashboard from '@/pages/Dashboard'
 import Login from '@/pages/Login'
 import Demo from '@/pages/Demo'
+import RuiCi from '@/pages/RuiCi'
 
 export const ROUTE = {
   LOGIN: '/login',
@@ -23,6 +24,11 @@ const routerConfig = [
   {
     path: '/demo',
     component: Demo,
+    exact: true
+  },
+  {
+    path: '/ruici',
+    component: RuiCi,
     exact: true
   },
   {
